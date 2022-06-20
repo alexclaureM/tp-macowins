@@ -1,4 +1,4 @@
-package ar.edu.utn.frba.dds.macowins;
+package ar.edu.utn.frba.dds.macowins.NegocioWins;
 
 import ar.edu.utn.frba.dds.macowins.FormaPagosFolder.TipoPago;
 import ar.edu.utn.frba.dds.macowins.PrendaFolder.Prenda;
@@ -17,11 +17,15 @@ public class Venta {
         this.fecha= unaFecha;
     }
 
-    public Date getFecha() {
+    public int getCantidadVendida() {
+        return cantidadVendida;
+    }
+
+     public Date getFecha() {
         return fecha;
     }
     public int ganancia(){
-        return cantidadVendida * unaPrenda.precio();
+        return this.getCantidadVendida() * unaPrenda.precio();
     }
     public int recargoPorPago(){
         return tipoPago.recargo(5);

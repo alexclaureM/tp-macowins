@@ -1,0 +1,47 @@
+[33mcommit c06250ba25c8265159df3e3836c193cd48523b12[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: alexclaureM <alexclauremontecinos@frba.utn.edu.ar>
+Date:   Fri Apr 16 18:58:58 2021 -0300
+
+    el diagrama
+
+[33mcommit b5b2601960ad1b64b73fe20fa90459d796ed48d9[m
+Author: alexclaureM <alexclauremontecinos@frba.utn.edu.ar>
+Date:   Fri Apr 16 17:56:56 2021 -0300
+
+    tp
+
+[33mcommit 580cf80d8f847b3f5c1330c6eba3f665cccee18d[m
+Author: Franco Bulgarelli <franco@mumuki.org>
+Date:   Wed Mar 31 22:10:17 2021 -0300
+
+    Run CI only on tag
+
+[33mcommit 9ec435678c3936a52879a4966324e096f8d235ef[m
+Author: Franco Bulgarelli <franco@mumuki.org>
+Date:   Sat Mar 27 16:52:13 2021 -0300
+
+    Set maven compiler plugin version
+
+[33mcommit 20f5e3fd084a3dfce89d898962f42eb60e26a02e[m
+Author: Franco Bulgarelli <franco@mumuki.org>
+Date:   Sat Mar 27 16:48:55 2021 -0300
+
+    Add additional flag for avoiding download info
+
+[33mcommit c943d7bc5d31849865b643448384ee092e510e3e[m
+Author: Franco Bulgarelli <franco@mumuki.org>
+Date:   Sat Mar 27 16:47:19 2021 -0300
+
+    Supress download progress in CI
+
+[33mcommit 683f22f219e0a175609dc413cf846a2cf73b33b4[m
+Author: Franco Bulgarelli <franco@mumuki.org>
+Date:   Sat Mar 27 16:27:01 2021 -0300
+
+    Add github actions config
+
+[33mcommit 69a38285288a5146d32791a4dc07c528f4ec68b9[m
+Author: Franco Bulgarelli <franco@mumuki.org>
+Date:   Sat Mar 27 15:24:51 2021 -0300
+
+    Enunciado base

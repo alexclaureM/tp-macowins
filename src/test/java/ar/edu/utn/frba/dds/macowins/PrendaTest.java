@@ -65,22 +65,5 @@ public class PrendaTest {
     //assertEquals(pantalonEnPromocion(1500, 100).precio(), 1400, 0);
     assertEquals(1300,unPantalon.precio());
   }
-/*
-  private Prenda pantalonEnPromocion(int precioBase, int descuento) {
-    // TODO completar
-    return null;
-  }
 
-/*
-  private Prenda camisaNueva(double precioBase) {
-    // TODO completar
-    return null;
-  }
-
-  private Prenda sacoEnLiquidacion(double precioBase) {
-    // TODO completar
-    return null;
-  }
-
- */
 }

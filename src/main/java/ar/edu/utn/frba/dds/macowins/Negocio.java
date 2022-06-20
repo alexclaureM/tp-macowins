@@ -2,15 +2,17 @@ package ar.edu.utn.frba.dds.macowins;
 
 import java.util.Collection;
 import java.util.Date;
+import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Negocio {
-    private Collection<Venta> ventasDelDia;
-
-    private int gananciaDelDia(java.util.Date unDia){
-        return this.ventasDelDia(unDia).stream().collect(Collectors.summingInt(Venta::ganancia));
+    private List<Ventas> unasVentasConcretadas;
+// el negocio es el que calcula por dia
+    public List<Ventas> ganaciaDelDia(Date unaFecha){
+        return (List<Ventas>) unasVentasConcretadas.stream().filter(unaVenta -> unaVenta.esLaFecha(unaFecha));
     }
-    private Collection <Venta> ventasDelDia (java.util.Date unDia){
-        return this.ventasDelDia.stream().filter((Venta unaVenta) -> (unaVenta.getFecha() == unDia)).collect(Collectors.toList());
+    public int gananciasAcumuladas(Date fecha){
+        return this.ganaciaDelDia(fecha).stream().collect(Collectors.summingInt(Ventas::gananciaPorLasPrendas));
     }
 }
